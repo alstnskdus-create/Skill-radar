@@ -20,6 +20,7 @@ KST = dt.timezone(dt.timedelta(hours=9))
 NOW = dt.datetime.now(dt.timezone.utc)
 WINDOW_DAYS = 7
 CUTOFF = NOW - dt.timedelta(days=WINDOW_DAYS)
+ERRORS = []
 
 QUERIES = [
     "topic:claude-skills",
@@ -56,9 +57,14 @@ def req(path, accept="application/vnd.github+json", retries=3):
                 print(f"rate limited on {url}, waiting {wait}s", file=sys.stderr)
                 time.sleep(wait)
                 continue
-            if e.code == 422 or e.code == 404:
-                return None
-            raise
+            ERRORS.append(f"HTTP {e.code} {url}")
+            return None
+        except Exception as e:  # network errors: log and move on
+            ERRORS.append(f"{type(e).__name__} {url}: {e}")
+            if attempt < retries - 1:
+                time.sleep(5)
+                continue
+            return None
     return None
 
 
@@ -174,6 +180,7 @@ def main():
         "candidate_count": len(cands),
         "top_total": top_total,
         "top_growth": top_growth,
+        "errors": ERRORS[:50],
         "all_candidates": [{k: c.get(k) for k in ("full_name", "url", "stars", "stars_7d")} for c in pool],
     }
     os.makedirs("data", exist_ok=True)
@@ -184,4 +191,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        import traceback
+        os.makedirs("data", exist_ok=True)
+        with open("data/last_error.txt", "w", encoding="utf-8") as f:
+            f.write(traceback.format_exc() + "\n" + "\n".join(ERRORS[:50]))
+        raise

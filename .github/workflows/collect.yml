@@ -27,6 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/collect.py
       - name: Commit data
+        if: always()
         run: |
           git config user.name "skill-radar-bot"
           git config user.email "actions@users.noreply.github.com"
