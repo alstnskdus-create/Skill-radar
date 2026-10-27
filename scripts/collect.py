@@ -53,7 +53,7 @@ def req(path, accept="application/vnd.github+json", retries=3):
             if e.code in (403, 429) and attempt < retries - 1:
                 reset = e.headers.get("X-RateLimit-Reset")
                 wait = max(5, int(reset) - int(time.time()) + 2) if reset else 30
-                wait = min(wait, 90)
+                wait = min(wait, 60)
                 print(f"rate limited on {url}, waiting {wait}s", file=sys.stderr)
                 time.sleep(wait)
                 continue
@@ -134,7 +134,7 @@ def stars_in_window(full_name, total):
         if stop:
             break
         page -= 1
-        if last_page - page > 60:  # >6,000 stars/week: stop and report as lower bound
+        if last_page - page >= 10:  # >1,000 stars/week: stop and report as lower bound
             return {"lower_bound": count}
     return count
 
@@ -153,8 +153,10 @@ def readme_excerpt(full_name, limit=1200):
 def main():
     cands = search_candidates()
     cands.sort(key=lambda c: c["stars"], reverse=True)
-    pool = cands[:80]
-    for c in pool:
+    pool = cands[:40]
+    print(f"candidates={len(cands)}", flush=True)
+    for i, c in enumerate(pool):
+        print(f"[{i+1}/{len(pool)}] {c['full_name']} stars={c['stars']}", flush=True)
         g = stars_in_window(c["full_name"], c["stars"])
         if isinstance(g, dict):
             c["stars_7d"] = g["lower_bound"]
