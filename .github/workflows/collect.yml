@@ -2,8 +2,8 @@ name: Collect Claude skill rankings
 
 on:
   schedule:
-    # 08:00 KST on Mon/Thu (= 23:00 UTC Sun/Wed), ahead of the 08:46 KST report
-    - cron: "0 23 * * 0,3"
+    # 08:00 KST daily (= 23:00 UTC); daily snapshots give the growth baseline
+    - cron: "0 23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,7 +16,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

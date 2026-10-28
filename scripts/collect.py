@@ -150,46 +150,69 @@ def readme_excerpt(full_name, limit=1200):
     return " ".join(text.split())[:limit]
 
 
+def load_baseline(today):
+    """Most recent earlier snapshot at least 6 days old, else the oldest earlier one."""
+    import glob
+    files = sorted(f for f in glob.glob("data/20*.json") if os.path.basename(f)[:10] < today)
+    if not files:
+        return None, None
+    target = (dt.date.fromisoformat(today) - dt.timedelta(days=6)).isoformat()
+    older = [f for f in files if os.path.basename(f)[:10] <= target]
+    path = older[-1] if older else files[0]
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    snap = {c["full_name"]: c["stars"] for c in data.get("all_candidates", [])}
+    return os.path.basename(path)[:10], snap
+
+
 def main():
+    today = NOW.astimezone(KST).strftime("%Y-%m-%d")
     cands = search_candidates()
     cands.sort(key=lambda c: c["stars"], reverse=True)
-    pool = cands[:40]
     print(f"candidates={len(cands)}", flush=True)
-    for i, c in enumerate(pool):
-        print(f"[{i+1}/{len(pool)}] {c['full_name']} stars={c['stars']}", flush=True)
-        g = stars_in_window(c["full_name"], c["stars"])
-        if isinstance(g, dict):
-            c["stars_7d"] = g["lower_bound"]
-            c["stars_7d_note"] = "lower bound (pagination stopped)"
+
+    base_date, base = load_baseline(today)
+    window_days = (dt.date.fromisoformat(today) - dt.date.fromisoformat(base_date)).days if base_date else None
+    for c in cands:
+        if base and c["full_name"] in base:
+            c["stars_gained"] = c["stars"] - base[c["full_name"]]
         else:
-            c["stars_7d"] = g
-            if g is None:
-                c["stars_7d_note"] = "not measurable (over 40,000 stars)"
+            c["stars_gained"] = None  # new candidate or no baseline yet
+        created = dt.datetime.fromisoformat(c["created_at"].replace("Z", "+00:00"))
+        age = max((NOW - created).days, 1)
+        c["age_days"] = age
+        c["stars_per_day_since_creation"] = round(c["stars"] / age, 1)
 
-    top_total = pool[:15]
-    measurable = [c for c in pool if isinstance(c.get("stars_7d"), int)]
-    top_growth = sorted(measurable, key=lambda c: c["stars_7d"], reverse=True)[:15]
+    top_total = cands[:15]
+    measured = [c for c in cands if isinstance(c.get("stars_gained"), int)]
+    top_growth = sorted(measured, key=lambda c: c["stars_gained"], reverse=True)[:15]
+    # Interim indicator when no baseline exists: young repos ranked by stars/day since creation
+    rising_new = sorted([c for c in cands if c["age_days"] <= 30],
+                        key=lambda c: c["stars_per_day_since_creation"], reverse=True)[:15]
 
-    for c in {c["full_name"]: c for c in top_total + top_growth}.values():
+    for c in {c["full_name"]: c for c in top_total + top_growth + rising_new}.values():
         c["readme_excerpt"] = readme_excerpt(c["full_name"])
 
     out = {
         "generated_at_utc": NOW.isoformat(),
-        "date_kst": NOW.astimezone(KST).strftime("%Y-%m-%d"),
-        "source": "GitHub REST API (search/repositories, stargazers with starred_at, readme)",
-        "growth_window_days": WINDOW_DAYS,
+        "date_kst": today,
+        "source": "GitHub REST API (search/repositories, readme)",
+        "growth_method": "stars now minus stars in baseline snapshot",
+        "growth_baseline_date": base_date,
+        "growth_window_days": window_days,
         "queries": QUERIES,
         "candidate_count": len(cands),
         "top_total": top_total,
         "top_growth": top_growth,
+        "rising_new_repos_30d": rising_new,
         "errors": ERRORS[:50],
-        "all_candidates": [{k: c.get(k) for k in ("full_name", "url", "stars", "stars_7d")} for c in pool],
+        "all_candidates": [{k: c.get(k) for k in ("full_name", "url", "stars", "stars_gained")} for c in cands],
     }
     os.makedirs("data", exist_ok=True)
-    for path in (f"data/{out['date_kst']}.json", "data/latest.json"):
+    for path in (f"data/{today}.json", "data/latest.json"):
         with open(path, "w", encoding="utf-8") as f:
             json.dump(out, f, ensure_ascii=False, indent=2)
-    print(f"candidates={len(cands)} top_total={len(top_total)} top_growth={len(top_growth)}")
+    print(f"top_total={len(top_total)} top_growth={len(top_growth)} rising_new={len(rising_new)} baseline={base_date}")
 
 
 if __name__ == "__main__":
