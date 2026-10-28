@@ -1,0 +1,753 @@
+{
+  "generated_at_utc": "2026-10-28T00:00:03.028629+00:00",
+  "date_kst": "2026-10-28",
+  "source": "GitHub REST API (search/repositories, stargazers with starred_at, readme)",
+  "growth_window_days": 7,
+  "queries": [
+    "topic:claude-skills",
+    "topic:claude-skill",
+    "topic:claude-code-skills",
+    "topic:agent-skills",
+    "topic:anthropic-skills",
+    "claude skills in:name,description",
+    "claude skill in:name,description",
+    "SKILL.md claude in:readme"
+  ],
+  "candidate_count": 247,
+  "top_total": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 397263,
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "binary-analysis",
+        "claude-code",
+        "cli",
+        "codex",
+        "cordis",
+        "decompiler",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "ghidra",
+        "hopper",
+        "llm",
+        "mcp",
+        "model-context-protocol",
+        "rea",
+        "reverse-engineering",
+        "static-analysis",
+        "touhou"
+      ],
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-27T23:52:48Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:agent-skills"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<div align=\"center\"> **English** · [简体中文](docs/readme/README_zh.md) · [繁體中文](docs/readme/README_zh-TW.md) · [日本語](docs/readme/README_ja.md) · [한국어](docs/readme/README_ko.md) · [Türkçe](docs/readme/README_tr.md) · [Русский](docs/readme/README_ru.md) · [Tiếng Việt](docs/readme/README_vi.md) · [ไทย](docs/readme/README_th.md) · [Deutsch](docs/readme/README_de.md) · [Español](docs/readme/README_es.md) · [Français](docs/readme/README_fr.md) · [Українська](docs/readme/README_uk.md) · [Polski](docs/readme/README_pl.md) · [Português (Brasil)](docs/readme/README_pt-BR.md) · [العربية](docs/readme/README_ar.md) · [فارسی](docs/readme/README_fa.md) · [Bahasa Indonesia](docs/readme/README_id.md) · [Italiano](docs/readme/README_it.md) · [Ελληνικά](docs/readme/README_el.md) · [മലയാളം](docs/readme/README_ml.md) · [Roman Urdu](docs/readme/README_ur-Latn.md) · [Română](docs/readme/README_ro.md) # REA: Reverse Engineer Anything ### One MCP for reverse engineering across binaries, applications, and runtime behavior. **See a feature you like. Understand how it works, down to the binary level.** [![npm version](https://img.shields.io/npm/v/rea-agents?style=flat-square&color=cb3837)](https://www.npmjs.com/"
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 290860,
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "created_at": "2026-01-18T00:51:51Z",
+      "pushed_at": "2026-10-26T04:56:56Z",
+      "archived": false,
+      "matched_queries": [
+        "claude skills in:name,description",
+        "claude skill in:name,description",
+        "SKILL.md claude in:readme"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<p align=\"center\"> <img src=\"assets/hero.png\" alt=\"ECC - the agent harness operating system\" width=\"100%\" /> </p> <p align=\"center\"> <a href=\"https://www.star-history.com/affaan-m/ecc\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=trending&theme=dark\" /> <img src=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=trending\" alt=\"GitHub Trending Repository of the Day\" height=\"46\" /> </picture> </a> <a href=\"https://www.star-history.com/affaan-m/ecc\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=rank&theme=dark\" /> <img src=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=rank\" alt=\"Star History Global Rank\" height=\"46\" /> </picture> </a> </p> <p align=\"center\"> <strong>Language:</strong> <a href=\"README.md\">English</a> | <a href=\"docs/ar/README.md\">العربية</a> | <a href=\"docs/pt-BR/README.md\">Português (Brasil)</a> | <a href=\"README.zh-CN.md\">简体中文</a> | <a href=\"docs/zh-TW/README.md\">繁體中文</a> | <a href=\"docs/ja-JP/README.md\">日本語</a> | <a href=\"docs/ko-KR/README.md\">한국어</a> | <a href=\"docs/tr/README.md\">Türkçe</a> | <"
+    },
+    {
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "stars": 225483,
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "topics": [],
+      "created_at": "2026-01-27T03:53:13Z",
+      "pushed_at": "2026-04-20T10:05:04Z",
+      "archived": false,
+      "matched_queries": [
+        "claude skills in:name,description",
+        "claude skill in:name,description"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "# Karpathy-Inspired Claude Code Guidelines > Check out my new project [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills. > > Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy) A single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls. English | [简体中文](./README.zh.md) ## The Problems From Andrej's post: > \"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage their confusion, don't seek clarifications, don't surface inconsistencies, don't present tradeoffs, don't push back when they should.\" > \"They really like to overcomplicate code and APIs, bloat abstractions, don't clean up dead code... implement a bloated construction over 1000 lines when 100 would do.\" > \"They still sometimes change/remove comments and code they don't sufficiently understand as side effects, even if orthogonal to the task.\" ## The Solution Four principles in one file that directly address these issues: | Principle | Addresses | |--"
+    },
+    {
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "stars": 184245,
+      "description": "Public repository for Agent Skills",
+      "topics": [
+        "agent-skills"
+      ],
+      "created_at": "2025-09-22T15:53:31Z",
+      "pushed_at": "2026-10-09T18:45:52Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:agent-skills",
+        "SKILL.md claude in:readme"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io). [![skills.sh](https://skills.sh/b/anthropics/skills)](https://skills.sh/anthropics/skills) # Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: - [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills) - [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills) - [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) # About This Repository This repository contains skills that demonstrate what's po"
+    },
+    {
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "stars": 178167,
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "created_at": "2026-06-12T00:52:37Z",
+      "pushed_at": "2026-10-18T01:55:14Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:agent-skills",
+        "SKILL.md claude in:readme"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<p align=\"center\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/logo-dark.png\"> <img src=\"assets/logo.png\" width=\"220\" alt=\"Ponytail, the lazy senior dev\"> </picture> </p> <h1 align=\"center\">Ponytail</h1> <p align=\"center\"> <em>He says nothing. He writes one line. It works.</em> </p> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/50668?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-50668\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/50668\" alt=\"DietrichGebert%2Fponytail | Trendshift\" width=\"250\" height=\"55\"/></a> </p> <p align=\"center\"> <img src=\"https://img.shields.io/github/stars/DietrichGebert/ponytail?style=flat-square&color=111111&label=stars\" alt=\"Stars\"> <img src=\"https://img.shields.io/github/v/release/DietrichGebert/ponytail?style=flat-square&color=111111&label=release\" alt=\"Release\"> <img src=\"https://img.shields.io/npm/v/@dietrichgebert/ponytail?style=flat-square&color=111111&label=npm\" alt=\"npm\"> <img src=\"https://img.shields.io/badge/works%20with-20%20agents-111111?style=flat-square\" alt=\"Works with 20 agents\"> <img src=\"https://img.shields.i"
+    },
+    {
+      "full_name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "stars": 136959,
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "topics": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-search",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "gemini",
+        "graphify",
+        "graphrag",
+        "knowledge-graph",
+        "leiden",
+        "llm",
+        "mcp",
+        "openclaw",
+        "rag",
+        "skills",
+        "tree-sitter"
+      ],
+      "created_at": "2026-04-03T15:49:07Z",
+      "pushed_at": "2026-10-27T18:15:35Z",
+      "archived": false,
+      "matched_queries": [
+        "claude skills in:name,description",
+        "claude skill in:name,description",
+        "SKILL.md claude in:readme"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<p align=\"center\"> <a href=\"https://graphify.com\"><img src=\"https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/graphify-logo.png\" width=\"360\" height=\"189\" alt=\"Graphify\"/></a> </p> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/25296?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-25296\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/25296\" alt=\"Graphify-Labs%2Fgraphify | Trendshift\" width=\"250\" height=\"55\"/></a> </p> <div align=\"center\"> <details><summary><b>Read this in other languages</b></summary> <a href=\"README.md\">English</a> | <a href=\"docs/translations/README.zh-CN.md\">简体中文</a> | <a href=\"docs/translations/README.ja-JP.md\">日本語</a> | <a href=\"docs/translations/README.ko-KR.md\">한국어</a> | <a href=\"docs/translations/README.de-DE.md\">Deutsch</a> | <a href=\"docs/translations/README.fr-FR.md\">Français</a> | <a href=\"docs/translations/README.es-ES.md\">Español</a> | <a href=\"docs/translations/README.hi-IN.md\">हिन्दी</a> | <a href=\"docs/translations/README.pt-BR.md\">Português</a> | <a href=\"docs/translations/README.ru-RU.md\">Русский</a> | <a href=\"docs/translations/READ"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "stars": 111131,
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "created_at": "2026-02-15T20:20:26Z",
+      "pushed_at": "2026-10-13T20:24:07Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:agent-skills",
+        "SKILL.md claude in:readme"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "# Agent Skills **Production-grade engineering skills for AI coding agents.** Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. <a href=\"https://trendshift.io/repositories/25200\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25200\" alt=\"addyosmani%2Fagent-skills | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a> ![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg) ``` DEFINE PLAN BUILD VERIFY REVIEW SHIP ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │ QA │ ───▶ │ Go │ │Refine│ │ PRD │ │ Impl │ │Debug │ │ Gate │ │ Live │ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ /spec /plan /build /test /review /ship ``` --- ## Commands 9 slash commands that map to the development lifecycle. Each one activates the right skills automatically. | What you're doing | Command | Key principle | |-------------------|---------|---------------| | Define what to build | `/spec` | Spec before cod"
+    },
+    {
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "stars": 108016,
+      "description": "The open-source app everyone uses to manage agents at work",
+      "topics": [
+        "acpx",
+        "agent-orchestration",
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "ai-engineering",
+        "ai-governance",
+        "ai-tools",
+        "autonomous-agents",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "hermes",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "openclaw",
+        "project-management",
+        "workflow-automation"
+      ],
+      "created_at": "2026-03-02T15:01:51Z",
+      "pushed_at": "2026-10-27T23:59:13Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:claude-skills",
+        "topic:agent-skills"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<p align=\"center\"> <img src=\"doc/assets/banner.jpg\" alt=\"Paperclip is the app people use to manage AI agents for work.\" width=\"720\" /> </p> <p align=\"center\"> <a href=\"#quickstart\"><strong>Quickstart</strong></a> &middot; <a href=\"https://docs.paperclip.ing\"><strong>Docs</strong></a> &middot; <a href=\"https://github.com/paperclipai/paperclip\"><strong>GitHub</strong></a> &middot; <a href=\"https://discord.gg/paperclipai\"><strong>Discord</strong></a> &middot; <a href=\"https://x.com/papercliping\"><strong>Twitter</strong></a> &middot; <a href=\"https://paperclip.ing\"><strong>Website</strong></a> </p> <p align=\"center\"> <a href=\"https://github.com/paperclipai/paperclip/blob/master/LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-blue\" alt=\"MIT License\" /></a> <a href=\"https://github.com/paperclipai/paperclip/stargazers\"><img src=\"https://img.shields.io/github/stars/paperclipai/paperclip?style=flat\" alt=\"Stars\" /></a> <a href=\"https://discord.gg/paperclipai\"><img src=\"https://img.shields.io/badge/discord-join-7289da\" alt=\"Discord\" /></a> <a href=\"https://superagent.sh\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.superagent.sh/api/badge/paperclipai/p"
+    },
+    {
+      "full_name": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "stars": 104382,
+      "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
+      "topics": [
+        "agent-skills",
+        "ai-design",
+        "byok",
+        "claude-code-for-design",
+        "claude-design",
+        "codex-design",
+        "cursor-design",
+        "deepseek",
+        "deepseek-harness",
+        "design-systems",
+        "desktop-app",
+        "desktop-apps",
+        "dsh",
+        "dsh-plugin",
+        "figma-alternative",
+        "hermes-agent",
+        "local-first",
+        "prototyping",
+        "ui-generator",
+        "vibe-coding"
+      ],
+      "created_at": "2026-04-28T04:25:20Z",
+      "pushed_at": "2026-10-27T18:26:52Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:agent-skills",
+        "SKILL.md claude in:readme"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<h1 align=\"center\">OpenDesign: The 1st Collaborative AI Design Agent Workspace</h1> > ✨ **[Celebrating 100K GitHub stars with OpenDesign Go](https://open-design.ai/pricing/)** — Go credits are doubled: **$8 for your first month, with up to $120 in monthly credits for eligible Design Plan models**. Use them across 10+ models, including GPT-6 Luna, DeepSeek V4.1 Flash, GLM-5.3 Flash-X, and MiMo V2.6 Flash. All personal plans include API access for Codex, Claude Code, DSH, OpenCode, and more. <p align=\"center\"> <img src=\"docs/assets/readme-hero-design-agent.webp\" alt=\"OpenDesign: The 1st Collaborative AI Design Agent Workspace\" width=\"100%\" /> </p> <p align=\"center\"> <a href=\"https://open-design.ai/?utm_source=github&utm_medium=referral&utm_content=readme_website\">Website</a> · <a href=\"https://open-design.ai/?utm_source=github&utm_medium=referral&utm_content=readme_download\">Download</a> · <a href=\"https://open-design.ai/cloud/?utm_source=github&utm_medium=referral&utm_content=readme_cloud\">OpenDesign Cloud</a> · <a href=\"https://discord.gg/mHAjSMV6gz\">Discord</a> · <a href=\"https://x.com/OpenDesignHQ\">Follow @OpenDesignHQ</a> </p> <p align=\"center\"> <a href=\"https://github.com/nexu-"
+    },
+    {
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "stars": 103723,
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence",
+        "chromadb",
+        "claude",
+        "claude-agent-sdk",
+        "claude-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "embeddings",
+        "long-term-memory",
+        "mem0",
+        "memory-engine",
+        "openmemory",
+        "rag",
+        "sqlite",
+        "supermemory"
+      ],
+      "created_at": "2025-08-31T20:50:03Z",
+      "pushed_at": "2026-10-27T20:58:16Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:claude-skills"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<h1 align=\"center\"> <br> <a href=\"https://github.com/thedotmack/claude-mem\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/public/claude-mem-logo-for-dark-mode.webp\"> <source media=\"(prefers-color-scheme: light)\" srcset=\"docs/public/claude-mem-logo-for-light-mode.webp\"> <img src=\"docs/public/claude-mem-logo-for-light-mode.webp\" alt=\"Claude-Mem\" width=\"400\"> </picture> </a> </h1> <p align=\"center\"> <img alt=\"Vercel OSS Program\" src=\"https://vercel.com/oss/program-badge-2026.svg\" height=\"24\" /> &nbsp;&nbsp;&nbsp; <img alt=\"Greptile\" src=\"docs/public/greptile-wordmark-green.svg\" height=\"24\" /> &nbsp;&nbsp;&nbsp; <img alt=\"SerpApi\" src=\"docs/public/serpapi-logo-with-wordmark-gradient.svg\" height=\"24\" /> </p> <p align=\"center\"> <a href=\"docs/i18n/README.zh.md\">🇨🇳 中文</a> • <a href=\"docs/i18n/README.zh-tw.md\">🇹🇼 繁體中文</a> • <a href=\"docs/i18n/README.ja.md\">🇯🇵 日本語</a> • <a href=\"docs/i18n/README.pt.md\">🇵🇹 Português</a> • <a href=\"docs/i18n/README.pt-br.md\">🇧🇷 Português</a> • <a href=\"docs/i18n/README.ko.md\">🇰🇷 한국어</a> • <a href=\"docs/i18n/README.es.md\">🇪🇸 Español</a> • <a href=\"docs/i18n/README.de.md\">🇩🇪 Deutsch</a> • <a href=\"docs/i18n/README.fr.md\">🇫🇷 Français</a> • "
+    },
+    {
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 103668,
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "cursor",
+        "design-system",
+        "frontend",
+        "landing-page",
+        "ui-design",
+        "web-design"
+      ],
+      "created_at": "2026-02-19T21:44:05Z",
+      "pushed_at": "2026-10-27T21:39:25Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:agent-skills"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<p align=\"center\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/taste-skill-wordmark-dark.png\" /> <img src=\"assets/taste-skill-wordmark.png\" alt=\"Taste Skill\" width=\"340\" /> </picture> </p> <p align=\"center\"> <a href=\"https://tasteskill.dev\" title=\"Visit tasteskill.dev\"><img src=\"https://img.shields.io/badge/website-tasteskill.dev-24292f?style=flat\" alt=\"Visit tasteskill.dev\" /></a> &nbsp; <a href=\"https://tastecode.dev\" title=\"Visit tastecode.dev\"><img src=\"https://img.shields.io/badge/new-TasteCode-ff6b00?style=flat\" alt=\"New: TasteCode\" /></a> &nbsp; <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-24292f?style=flat&amp;logo=github&amp;logoColor=white\" alt=\"MIT License\" /></a> &nbsp; <a href=\"CHANGELOG.md\"><img src=\"https://img.shields.io/badge/changelog-view-24292f?style=flat\" alt=\"Changelog\" /></a> </p> <p align=\"center\"> <a href=\"https://tastecode.dev\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/readme-tastecode-dark.webp\" /> <img src=\"assets/readme-tastecode.webp\" alt=\"TasteCode is here. Taste Skill as a desktop app, with a design agent built in. Free and open source. Download at tastecode.dev\" width=\"10"
+    },
+    {
+      "full_name": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "stars": 90438,
+      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "architecture-diagram",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "coding-agents",
+        "deepseek-harness",
+        "developer-tools",
+        "diagrams",
+        "diagrams-as-code",
+        "dsh-plugin",
+        "flowchart",
+        "llm",
+        "mermaid",
+        "opencode",
+        "sequence-diagram",
+        "software-architecture",
+        "system-design",
+        "visualization"
+      ],
+      "created_at": "2026-04-15T05:27:37Z",
+      "pushed_at": "2026-10-27T23:55:30Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:claude-skills",
+        "topic:agent-skills",
+        "claude skills in:name,description",
+        "claude skill in:name,description",
+        "SKILL.md claude in:readme"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<p align=\"center\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/assets/archify-lockup-dark.svg\" /> <img src=\"docs/assets/archify-lockup-light.svg\" alt=\"Archify\" width=\"440\" height=\"121\" /> </picture> </p> <h3 align=\"center\">Turn anything you want to understand, plan, or share into an interactive visual.</h3> <p align=\"center\"><img src=\"docs/assets/archify-readme-hero.png\" alt=\"Archify — interactive diagrams\" width=\"960\" /></p> <p align=\"center\"><strong>Official channels：</strong> <a href=\"https://archify.si\">archify.si</a> · <a href=\"https://github.com/tt-a1i/archify\">GitHub</a><br/>Archify is free and open source. Third-party online services and paid plans are operated by their respective providers and do not represent Archify. <a href=\"#official-services\">Service details →</a></p> <p align=\"center\">Start with an idea, a question, or a plan. Describe it to your AI agent, and Archify turns it into an interactive HTML you can explore, customize, and share. From travel itineraries and learning maps to complex systems—make it your own.</p> <p align=\"center\">See what the community is creating—and imagine what you could make next.</p> <p align=\"center\"> <a href=\"h"
+    },
+    {
+      "full_name": "Egonex-AI/Understand-Anything",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "stars": 88579,
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "topics": [
+        "antigravity-skills",
+        "business-knowledge",
+        "claude-code",
+        "claude-skills",
+        "codebase-analysis",
+        "codex",
+        "codex-skills",
+        "developer-tools-ai-agent",
+        "gemini-cli-skills",
+        "karpathy-llm-wiki",
+        "knowledge-base",
+        "knowledge-graph",
+        "memory",
+        "opencode-skills",
+        "pi-agent",
+        "understandcode",
+        "vibe-coding"
+      ],
+      "created_at": "2026-03-15T02:30:51Z",
+      "pushed_at": "2026-10-26T07:05:22Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:claude-skills"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<h1 align=\"center\">Understand Anything</h1> <p align=\"center\"> <strong>Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about.</strong> <br /> <em>Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.</em> </p> <p align=\"center\"> <strong>Understand Anything. <a href=\"https://egonex.ai\">Understand Anyone.</a></strong> <br /> <em>AI should help people, not replace them.</em> </p> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/23482\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/23482\" alt=\"Understand Anything | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a> </p> <p align=\"center\"> <a href=\"README.md\">English</a> | <a href=\"READMEs/README.zh-CN.md\">简体中文</a> | <a href=\"READMEs/README.zh-TW.md\">繁體中文</a> | <a href=\"READMEs/README.ja-JP.md\">日本語</a> | <a href=\"READMEs/README.ko-KR.md\">한국어</a> | <a href=\"READMEs/README.es-ES.md\">Español</a> | <a href=\"READMEs/README.tr-TR.md\">Türkçe</a> | <a href=\"READMEs/README.ru-RU.md\">Русский</a> | <a href=\"READMEs/README.vi-VN.md\">Tiếng Việt</a> </p> <p align=\"center\"> <a href=\"#-quick-start\"><"
+    },
+    {
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "stars": 78096,
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "automation",
+        "claude",
+        "claude-code",
+        "codex",
+        "composio",
+        "cursor",
+        "developer-tools",
+        "gemini-cli",
+        "mcp",
+        "openai-codex",
+        "rube",
+        "saas",
+        "skill",
+        "workflow-automation"
+      ],
+      "created_at": "2025-10-17T07:15:01Z",
+      "pushed_at": "2026-09-18T07:16:11Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:agent-skills",
+        "claude skills in:name,description",
+        "claude skill in:name,description",
+        "SKILL.md claude in:readme"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<h1 align=\"center\">Awesome Claude Skills</h1> <p align=\"center\"> <a href=\"https://dashboard.composio.dev/login?utm_source=Github&utm_medium=Youtube&utm_campaign=2025-11&utm_content=AwesomeSkills\"> <img width=\"1280\" height=\"640\" alt=\"Composio banner\" src=\"https://github.com/user-attachments/assets/e91255af-e4ba-4d71-b1a8-bd081e8a234a\"> </a> </p> <p align=\"center\"> <a href=\"https://awesome.re\"> <img src=\"https://awesome.re/badge.svg\" alt=\"Awesome\" /> </a> <a href=\"https://makeapullrequest.com\"> <img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square\" alt=\"PRs Welcome\" /> </a> <a href=\"https://www.apache.org/licenses/LICENSE-2.0\"> <img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square\" alt=\"License: Apache-2.0\" /> </a> </p> <div> <p align=\"center\"> <a href=\"https://twitter.com/composio\"> <img src=\"https://img.shields.io/badge/Follow on X-000000?style=for-the-badge&logo=x&logoColor=white\" alt=\"Follow on X\" /> </a> <a href=\"https://www.linkedin.com/company/composiohq/\"> <img src=\"https://img.shields.io/badge/Follow on LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white\" alt=\"Follow on LinkedIn\" /> </a> <a href=\"htt"
+    },
+    {
+      "full_name": "career-ops-hq/career-ops",
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "stars": 77911,
+      "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "ai-job-search",
+        "ats",
+        "career",
+        "career-ops",
+        "claude-code",
+        "cover-letter",
+        "cv",
+        "good-first-issue",
+        "interview-preparation",
+        "interview-questions",
+        "job-application",
+        "job-hunting",
+        "job-search",
+        "job-search-tools",
+        "latex",
+        "local-first",
+        "open-source",
+        "resume"
+      ],
+      "created_at": "2026-04-04T18:21:18Z",
+      "pushed_at": "2026-10-27T19:00:47Z",
+      "archived": false,
+      "matched_queries": [
+        "topic:agent-skills",
+        "SKILL.md claude in:readme"
+      ],
+      "stars_7d": null,
+      "stars_7d_note": "not measurable (over 40,000 stars)",
+      "readme_excerpt": "<p align=\"center\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/wordmark-dark.svg\"><img src=\"docs/wordmark-light.svg\" alt=\"career-ops\" width=\"250\" height=\"56\"></picture></p> <p align=\"center\">The open-source AI job search agent.</p> <p align=\"center\"> <a href=\"README.md\">English</a> | <a href=\"README.es.md\">Español</a> | <a href=\"README.de.md\">Deutsch</a> | <a href=\"README.fr.md\">Français</a> | <a href=\"README.pt-BR.md\">Português (Brasil)</a> | <a href=\"README.ko-KR.md\">한국어</a> | <a href=\"README.ja.md\">日本語</a> | <a href=\"README.cn.md\">简体中文</a> | <a href=\"README.zh-TW.md\">繁體中文</a> | <a href=\"README.ua.md\">Українська</a> | <a href=\"README.ru.md\">Русский</a> | <a href=\"README.pl.md\">Polski</a> | <a href=\"README.da.md\">Dansk</a> | <a href=\"README.ta.md\">தமிழ்</a> | <a href=\"README.ar.md\">العربية</a> | <a href=\"README.hi.md\">हिन्दी</a> | <a href=\"README.tr.md\">Türkçe</a> | <a href=\"README.vi.md\">Tiếng Việt</a> | <a href=\"README.id.md\">Bahasa Indonesia</a> </p> <!-- The non-breaking spaces (&nbsp;) and word joiners (&#8288;) below decide where each line wraps on a phone. Keep them when editing. --> <p align=\"center\"><a href=\"https://github.com/santifer\"><img src=\"doc"
+    }
+  ],
+  "top_growth": [],
+  "errors": [
+    "HTTP 403 https://api.github.com/repos/Nutlope/hallmark/stargazers?per_page=100&page=390",
+    "HTTP 403 https://api.github.com/repos/vercel-labs/skills/stargazers?per_page=100&page=369",
+    "HTTP 403 https://api.github.com/repos/VoltAgent/awesome-agent-skills/stargazers?per_page=100&page=365",
+    "HTTP 403 https://api.github.com/repos/virgiliojr94/book-to-skill/stargazers?per_page=100&page=363",
+    "HTTP 403 https://api.github.com/repos/mukul975/Anthropic-Cybersecurity-Skills/stargazers?per_page=100&page=352",
+    "HTTP 403 https://api.github.com/repos/feder-cr/invisible_dots/stargazers?per_page=100&page=323",
+    "HTTP 403 https://api.github.com/repos/googleworkspace/cli/stargazers?per_page=100&page=320"
+  ],
+  "all_candidates": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "stars": 397263,
+      "stars_7d": null
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 290860,
+      "stars_7d": null
+    },
+    {
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "stars": 225483,
+      "stars_7d": null
+    },
+    {
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "stars": 184245,
+      "stars_7d": null
+    },
+    {
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "stars": 178167,
+      "stars_7d": null
+    },
+    {
+      "full_name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "stars": 136959,
+      "stars_7d": null
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "stars": 111131,
+      "stars_7d": null
+    },
+    {
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "stars": 108016,
+      "stars_7d": null
+    },
+    {
+      "full_name": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "stars": 104382,
+      "stars_7d": null
+    },
+    {
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "stars": 103723,
+      "stars_7d": null
+    },
+    {
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 103668,
+      "stars_7d": null
+    },
+    {
+      "full_name": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "stars": 90438,
+      "stars_7d": null
+    },
+    {
+      "full_name": "Egonex-AI/Understand-Anything",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "stars": 88579,
+      "stars_7d": null
+    },
+    {
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "stars": 78096,
+      "stars_7d": null
+    },
+    {
+      "full_name": "career-ops-hq/career-ops",
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "stars": 77911,
+      "stars_7d": null
+    },
+    {
+      "full_name": "code-yeongyu/oh-my-openagent",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "stars": 70401,
+      "stars_7d": null
+    },
+    {
+      "full_name": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "stars": 68211,
+      "stars_7d": null
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "stars": 65692,
+      "stars_7d": null
+    },
+    {
+      "full_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "stars": 61780,
+      "stars_7d": null
+    },
+    {
+      "full_name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "stars": 61492,
+      "stars_7d": null
+    },
+    {
+      "full_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "stars": 59055,
+      "stars_7d": null
+    },
+    {
+      "full_name": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "stars": 56907,
+      "stars_7d": null
+    },
+    {
+      "full_name": "hesreallyhim/awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "stars": 56683,
+      "stars_7d": null
+    },
+    {
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "stars": 54945,
+      "stars_7d": null
+    },
+    {
+      "full_name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "stars": 54170,
+      "stars_7d": null
+    },
+    {
+      "full_name": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "stars": 53033,
+      "stars_7d": null
+    },
+    {
+      "full_name": "kepano/obsidian-skills",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "stars": 50236,
+      "stars_7d": null
+    },
+    {
+      "full_name": "sickn33/agentic-awesome-skills",
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "stars": 48621,
+      "stars_7d": null
+    },
+    {
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "stars": 48618,
+      "stars_7d": null
+    },
+    {
+      "full_name": "LibreChat-AI/LibreChat",
+      "url": "https://github.com/LibreChat-AI/LibreChat",
+      "stars": 46388,
+      "stars_7d": null
+    },
+    {
+      "full_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "stars": 44944,
+      "stars_7d": null
+    },
+    {
+      "full_name": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "stars": 43572,
+      "stars_7d": null
+    },
+    {
+      "full_name": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "stars": 41879,
+      "stars_7d": null
+    },
+    {
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "stars": 38950,
+      "stars_7d": null
+    },
+    {
+      "full_name": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "stars": 36857,
+      "stars_7d": null
+    },
+    {
+      "full_name": "VoltAgent/awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "stars": 36465,
+      "stars_7d": null
+    },
+    {
+      "full_name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "stars": 36294,
+      "stars_7d": null
+    },
+    {
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 35128,
+      "stars_7d": null
+    },
+    {
+      "full_name": "feder-cr/invisible_dots",
+      "url": "https://github.com/feder-cr/invisible_dots",
+      "stars": 32270,
+      "stars_7d": null
+    },
+    {
+      "full_name": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "stars": 31950,
+      "stars_7d": null
+    }
+  ]
+}
