@@ -209,9 +209,18 @@ def main():
         "all_candidates": [{k: c.get(k) for k in ("full_name", "url", "stars", "stars_gained")} for c in cands],
     }
     os.makedirs("data", exist_ok=True)
-    for path in (f"data/{today}.json", "data/latest.json"):
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(out, f, ensure_ascii=False, indent=2)
+    with open(f"data/{today}.json", "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    # Slim copy for the report task (read over the web): no full candidate list
+    slim = {k: v for k, v in out.items() if k != "all_candidates"}
+    keep = ("full_name", "url", "stars", "stars_gained", "age_days",
+            "stars_per_day_since_creation", "description", "topics", "readme_excerpt")
+    for key in ("top_total", "top_growth", "rising_new_repos_30d"):
+        slim[key] = [{k: c.get(k) for k in keep} for c in out[key]]
+        for c in slim[key]:
+            c["readme_excerpt"] = (c.get("readme_excerpt") or "")[:500]
+    with open("data/latest.json", "w", encoding="utf-8") as f:
+        json.dump(slim, f, ensure_ascii=False, indent=1)
     print(f"top_total={len(top_total)} top_growth={len(top_growth)} rising_new={len(rising_new)} baseline={base_date}")
 
 
