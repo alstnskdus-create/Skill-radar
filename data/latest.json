@@ -1,9 +1,9 @@
 {
- "generated_at_utc": "2026-11-14T23:22:06.600873+00:00",
- "date_kst": "2026-11-15",
+ "generated_at_utc": "2026-11-15T23:30:57.676660+00:00",
+ "date_kst": "2026-11-16",
  "source": "GitHub REST API (search/repositories, readme)",
  "growth_method": "stars now minus stars in baseline snapshot",
- "growth_baseline_date": "2026-11-09",
+ "growth_baseline_date": "2026-11-10",
  "growth_window_days": 6,
  "queries": [
   "topic:claude-skills",
@@ -20,10 +20,10 @@
   {
    "full_name": "morluto/rea",
    "url": "https://github.com/morluto/rea",
-   "stars": 459789,
-   "stars_gained": 16136,
-   "age_days": 214,
-   "stars_per_day_since_creation": 2148.5,
+   "stars": 461897,
+   "stars_gained": 15049,
+   "age_days": 215,
+   "stars_per_day_since_creation": 2148.4,
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "topics": [
     "agent-skills",
@@ -52,10 +52,10 @@
   {
    "full_name": "affaan-m/ECC",
    "url": "https://github.com/affaan-m/ECC",
-   "stars": 303025,
-   "stars_gained": 3331,
-   "age_days": 300,
-   "stars_per_day_since_creation": 1010.1,
+   "stars": 303827,
+   "stars_gained": 3611,
+   "age_days": 301,
+   "stars_per_day_since_creation": 1009.4,
    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
    "topics": [
     "ai-agents",
@@ -72,10 +72,10 @@
   {
    "full_name": "multica-ai/andrej-karpathy-skills",
    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-   "stars": 233150,
-   "stars_gained": 2221,
-   "age_days": 291,
-   "stars_per_day_since_creation": 801.2,
+   "stars": 233446,
+   "stars_gained": 2100,
+   "age_days": 292,
+   "stars_per_day_since_creation": 799.5,
    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
    "topics": [],
    "readme_excerpt": "# Karpathy-Inspired Claude Code Guidelines > Check out my new project [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills. > > Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy) A single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls. English | [简体中文](./README.zh.md) ## The P"
@@ -83,10 +83,10 @@
   {
    "full_name": "anthropics/skills",
    "url": "https://github.com/anthropics/skills",
-   "stars": 194610,
-   "stars_gained": 5030,
-   "age_days": 418,
-   "stars_per_day_since_creation": 465.6,
+   "stars": 195340,
+   "stars_gained": 4443,
+   "age_days": 419,
+   "stars_per_day_since_creation": 466.2,
    "description": "Public repository for Agent Skills",
    "topics": [
     "agent-skills"
@@ -96,10 +96,10 @@
   {
    "full_name": "DietrichGebert/ponytail",
    "url": "https://github.com/DietrichGebert/ponytail",
-   "stars": 190902,
-   "stars_gained": 3992,
-   "age_days": 155,
-   "stars_per_day_since_creation": 1231.6,
+   "stars": 191432,
+   "stars_gained": 3772,
+   "age_days": 156,
+   "stars_per_day_since_creation": 1227.1,
    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
    "topics": [
     "agent-skills",
@@ -118,9 +118,9 @@
   {
    "full_name": "Graphify-Labs/graphify",
    "url": "https://github.com/Graphify-Labs/graphify",
-   "stars": 147750,
-   "stars_gained": 3261,
-   "age_days": 225,
+   "stars": 148408,
+   "stars_gained": 3393,
+   "age_days": 226,
    "stars_per_day_since_creation": 656.7,
    "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
    "topics": [
@@ -150,10 +150,10 @@
   {
    "full_name": "addyosmani/agent-skills",
    "url": "https://github.com/addyosmani/agent-skills",
-   "stars": 117556,
-   "stars_gained": 3443,
-   "age_days": 272,
-   "stars_per_day_since_creation": 432.2,
+   "stars": 117933,
+   "stars_gained": 3372,
+   "age_days": 273,
+   "stars_per_day_since_creation": 432.0,
    "description": "Production-grade engineering skills for AI coding agents.",
    "topics": [
     "agent-skills",
@@ -168,9 +168,9 @@
   {
    "full_name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 117106,
-   "stars_gained": 2225,
-   "age_days": 440,
+   "stars": 117363,
+   "stars_gained": 1979,
+   "age_days": 441,
    "stars_per_day_since_creation": 266.1,
    "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
    "topics": [
@@ -200,10 +200,10 @@
   {
    "full_name": "Leonxlnx/taste-skill",
    "url": "https://github.com/Leonxlnx/taste-skill",
-   "stars": 115627,
-   "stars_gained": 3597,
-   "age_days": 268,
-   "stars_per_day_since_creation": 431.4,
+   "stars": 116215,
+   "stars_gained": 3698,
+   "age_days": 269,
+   "stars_per_day_since_creation": 432.0,
    "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
    "topics": [
     "agent-skills",
@@ -223,10 +223,10 @@
   {
    "full_name": "paperclipai/paperclip",
    "url": "https://github.com/paperclipai/paperclip",
-   "stars": 113925,
-   "stars_gained": 1603,
-   "age_days": 257,
-   "stars_per_day_since_creation": 443.3,
+   "stars": 114138,
+   "stars_gained": 1509,
+   "age_days": 258,
+   "stars_per_day_since_creation": 442.4,
    "description": "The open-source app everyone uses to manage agents at work",
    "topics": [
     "acpx",
@@ -255,10 +255,10 @@
   {
    "full_name": "nexu-io/open-design",
    "url": "https://github.com/nexu-io/open-design",
-   "stars": 107651,
-   "stars_gained": 997,
-   "age_days": 200,
-   "stars_per_day_since_creation": 538.3,
+   "stars": 107760,
+   "stars_gained": 925,
+   "age_days": 201,
+   "stars_per_day_since_creation": 536.1,
    "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
    "topics": [
     "agent-skills",
@@ -287,10 +287,10 @@
   {
    "full_name": "tt-a1i/archify",
    "url": "https://github.com/tt-a1i/archify",
-   "stars": 96439,
-   "stars_gained": 1715,
-   "age_days": 213,
-   "stars_per_day_since_creation": 452.8,
+   "stars": 96790,
+   "stars_gained": 1743,
+   "age_days": 214,
+   "stars_per_day_since_creation": 452.3,
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "topics": [
     "agent-skills",
@@ -319,10 +319,10 @@
   {
    "full_name": "Egonex-AI/Understand-Anything",
    "url": "https://github.com/Egonex-AI/Understand-Anything",
-   "stars": 92628,
-   "stars_gained": 1088,
-   "age_days": 244,
-   "stars_per_day_since_creation": 379.6,
+   "stars": 92732,
+   "stars_gained": 981,
+   "age_days": 245,
+   "stars_per_day_since_creation": 378.5,
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "topics": [
     "antigravity-skills",
@@ -348,9 +348,9 @@
   {
    "full_name": "lobehub/lobehub",
    "url": "https://github.com/lobehub/lobehub",
-   "stars": 85526,
-   "stars_gained": 1103,
-   "age_days": 1273,
+   "stars": 85572,
+   "stars_gained": 984,
+   "age_days": 1274,
    "stars_per_day_since_creation": 67.2,
    "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
    "topics": [
@@ -370,10 +370,10 @@
   {
    "full_name": "career-ops-hq/career-ops",
    "url": "https://github.com/career-ops-hq/career-ops",
-   "stars": 82594,
-   "stars_gained": 1404,
-   "age_days": 224,
-   "stars_per_day_since_creation": 368.7,
+   "stars": 82788,
+   "stars_gained": 1304,
+   "age_days": 225,
+   "stars_per_day_since_creation": 367.9,
    "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
    "topics": [
     "agent-skills",
@@ -404,10 +404,10 @@
   {
    "full_name": "morluto/rea",
    "url": "https://github.com/morluto/rea",
-   "stars": 459789,
-   "stars_gained": 16136,
-   "age_days": 214,
-   "stars_per_day_since_creation": 2148.5,
+   "stars": 461897,
+   "stars_gained": 15049,
+   "age_days": 215,
+   "stars_per_day_since_creation": 2148.4,
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "topics": [
     "agent-skills",
@@ -436,10 +436,10 @@
   {
    "full_name": "anthropics/skills",
    "url": "https://github.com/anthropics/skills",
-   "stars": 194610,
-   "stars_gained": 5030,
-   "age_days": 418,
-   "stars_per_day_since_creation": 465.6,
+   "stars": 195340,
+   "stars_gained": 4443,
+   "age_days": 419,
+   "stars_per_day_since_creation": 466.2,
    "description": "Public repository for Agent Skills",
    "topics": [
     "agent-skills"
@@ -447,51 +447,12 @@
    "readme_excerpt": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io). [![skills.sh](https://skills.sh/b/anthropics/skills)](https://skills.sh/anthropics/skills) # Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's"
   },
   {
-   "full_name": "google/elephant-goldfish-model",
-   "url": "https://github.com/google/elephant-goldfish-model",
-   "stars": 19164,
-   "stars_gained": 4147,
-   "age_days": 62,
-   "stars_per_day_since_creation": 309.1,
-   "description": "Open-source plugin for designing and reviewing software with agents",
-   "topics": [
-    "agent-skills",
-    "ai-agents",
-    "antigravity",
-    "claude-code",
-    "claude-code-plugin",
-    "claude-skills",
-    "codex",
-    "codex-plugin",
-    "coding-agents",
-    "context-engineering",
-    "developer-tools",
-    "gemini",
-    "llm",
-    "multi-agent",
-    "prompt-engineering",
-    "spec-driven-development"
-   ],
-   "readme_excerpt": "<p align=\"center\"> <a href=\"https://egm.dev\"><img src=\"docs/assets/readme-header.svg\" width=\"480\" height=\"116\" alt=\"Elephant-Goldfish Model\"></a> </p> <p align=\"center\">Design with an elephant. Review with a goldfish.</p> <p align=\"center\"> <a href=\"#install\">Install</a> &ensp;·&ensp; <a href=\"#try-your-first-design\">Quickstart</a> &ensp;·&ensp; <a href=\"docs/getting_started.md\">Documentation</a> &ensp;·&ensp; <a href=\"https://egm.dev\">Website</a> </p> <br> Develop ideas with context and review "
-  },
-  {
-   "full_name": "Nutlope/hallmark",
-   "url": "https://github.com/Nutlope/hallmark",
-   "stars": 55009,
-   "stars_gained": 4080,
-   "age_days": 201,
-   "stars_per_day_since_creation": 273.7,
-   "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-   "topics": [],
-   "readme_excerpt": "# Hallmark **A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** [usehallmark.com](https://www.usehallmark.com) &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. <p align=\"center\"> <img src=\"site/OG-hallmark.png\" alt=\"Hallmark, the design skill that ends AI slop\" /> </p> Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials"
-  },
-  {
    "full_name": "heydamir/unslop",
    "url": "https://github.com/heydamir/unslop",
-   "stars": 15984,
-   "stars_gained": 4035,
-   "age_days": 16,
-   "stars_per_day_since_creation": 999.0,
+   "stars": 16739,
+   "stars_gained": 4010,
+   "age_days": 17,
+   "stars_per_day_since_creation": 984.6,
    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "topics": [],
    "readme_excerpt": "# unslop Created by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), who started the [Unslopping series](https://x.com/heydamir/status/2115063463063998736) on X. ![A vibecoded dashboard unslopping itself, frame by frame](skills/unslop/references/refs/story-dashboard-frames.webp) unslop is a skill for Claude Code, Codex and Google Antigravity that turns vibecoded, AI-looking UI into a designed interface with its own character. It finds the slop first, the purple gradients, glows, emoji lab"
@@ -499,10 +460,10 @@
   {
    "full_name": "DietrichGebert/ponytail",
    "url": "https://github.com/DietrichGebert/ponytail",
-   "stars": 190902,
-   "stars_gained": 3992,
-   "age_days": 155,
-   "stars_per_day_since_creation": 1231.6,
+   "stars": 191432,
+   "stars_gained": 3772,
+   "age_days": 156,
+   "stars_per_day_since_creation": 1227.1,
    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
    "topics": [
     "agent-skills",
@@ -519,12 +480,23 @@
    "readme_excerpt": "<p align=\"center\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/logo-dark.png\"> <img src=\"assets/logo.png\" width=\"220\" alt=\"Ponytail, the lazy senior dev\"> </picture> </p> <h1 align=\"center\">Ponytail</h1> <p align=\"center\"> <em>He says nothing. He writes one line. It works.</em> </p> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/50668?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-50668\" target=\"_blank\" rel=\"noopener n"
   },
   {
+   "full_name": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "stars": 55483,
+   "stars_gained": 3730,
+   "age_days": 202,
+   "stars_per_day_since_creation": 274.7,
+   "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "topics": [],
+   "readme_excerpt": "# Hallmark **A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** [usehallmark.com](https://www.usehallmark.com) &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. <p align=\"center\"> <img src=\"site/OG-hallmark.png\" alt=\"Hallmark, the design skill that ends AI slop\" /> </p> Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials"
+  },
+  {
    "full_name": "Leonxlnx/taste-skill",
    "url": "https://github.com/Leonxlnx/taste-skill",
-   "stars": 115627,
-   "stars_gained": 3597,
-   "age_days": 268,
-   "stars_per_day_since_creation": 431.4,
+   "stars": 116215,
+   "stars_gained": 3698,
+   "age_days": 269,
+   "stars_per_day_since_creation": 432.0,
    "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
    "topics": [
     "agent-skills",
@@ -542,30 +514,12 @@
    "readme_excerpt": "<p align=\"center\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/taste-skill-wordmark-dark.png\" /> <img src=\"assets/taste-skill-wordmark.png\" alt=\"Taste Skill\" width=\"340\" /> </picture> </p> <p align=\"center\"> <a href=\"https://tasteskill.dev\" title=\"Visit tasteskill.dev\"><img src=\"https://img.shields.io/badge/website-tasteskill.dev-24292f?style=flat\" alt=\"Visit tasteskill.dev\" /></a> &nbsp; <a href=\"https://tastecode.dev\" title=\"Visit tastecode.dev\"><img src=\"https://img."
   },
   {
-   "full_name": "addyosmani/agent-skills",
-   "url": "https://github.com/addyosmani/agent-skills",
-   "stars": 117556,
-   "stars_gained": 3443,
-   "age_days": 272,
-   "stars_per_day_since_creation": 432.2,
-   "description": "Production-grade engineering skills for AI coding agents.",
-   "topics": [
-    "agent-skills",
-    "antigravity",
-    "claude-code",
-    "codex",
-    "cursor",
-    "skills"
-   ],
-   "readme_excerpt": "# Agent Skills **Production-grade engineering skills for AI coding agents.** Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. <a href=\"https://trendshift.io/repositories/25200\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25200\" alt=\"addyosmani%2Fagent-skills | Trendshift\" style=\"width: 250px; height: 55px;\" wid"
-  },
-  {
    "full_name": "affaan-m/ECC",
    "url": "https://github.com/affaan-m/ECC",
-   "stars": 303025,
-   "stars_gained": 3331,
-   "age_days": 300,
-   "stars_per_day_since_creation": 1010.1,
+   "stars": 303827,
+   "stars_gained": 3611,
+   "age_days": 301,
+   "stars_per_day_since_creation": 1009.4,
    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
    "topics": [
     "ai-agents",
@@ -582,9 +536,9 @@
   {
    "full_name": "Graphify-Labs/graphify",
    "url": "https://github.com/Graphify-Labs/graphify",
-   "stars": 147750,
-   "stars_gained": 3261,
-   "age_days": 225,
+   "stars": 148408,
+   "stars_gained": 3393,
+   "age_days": 226,
    "stars_per_day_since_creation": 656.7,
    "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
    "topics": [
@@ -612,12 +566,58 @@
    "readme_excerpt": "<p align=\"center\"> <a href=\"https://graphify.com\"><img src=\"https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/graphify-logo.png\" width=\"360\" height=\"189\" alt=\"Graphify\"/></a> </p> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/25296?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-25296\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/25296\" alt=\"Graphify-Labs%2Fgraphify | Trendshift"
   },
   {
+   "full_name": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "stars": 117933,
+   "stars_gained": 3372,
+   "age_days": 273,
+   "stars_per_day_since_creation": 432.0,
+   "description": "Production-grade engineering skills for AI coding agents.",
+   "topics": [
+    "agent-skills",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "cursor",
+    "skills"
+   ],
+   "readme_excerpt": "# Agent Skills **Production-grade engineering skills for AI coding agents.** Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. <a href=\"https://trendshift.io/repositories/25200\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25200\" alt=\"addyosmani%2Fagent-skills | Trendshift\" style=\"width: 250px; height: 55px;\" wid"
+  },
+  {
+   "full_name": "google/elephant-goldfish-model",
+   "url": "https://github.com/google/elephant-goldfish-model",
+   "stars": 19729,
+   "stars_gained": 3312,
+   "age_days": 63,
+   "stars_per_day_since_creation": 313.2,
+   "description": "Open-source plugin for designing and reviewing software with agents",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "codex",
+    "codex-plugin",
+    "coding-agents",
+    "context-engineering",
+    "developer-tools",
+    "gemini",
+    "llm",
+    "multi-agent",
+    "prompt-engineering",
+    "spec-driven-development"
+   ],
+   "readme_excerpt": "<p align=\"center\"> <a href=\"https://egm.dev\"><img src=\"docs/assets/readme-header.svg\" width=\"480\" height=\"116\" alt=\"Elephant-Goldfish Model\"></a> </p> <p align=\"center\">Design with an elephant. Review with a goldfish.</p> <p align=\"center\"> <a href=\"#install\">Install</a> &ensp;·&ensp; <a href=\"#try-your-first-design\">Quickstart</a> &ensp;·&ensp; <a href=\"docs/getting_started.md\">Documentation</a> &ensp;·&ensp; <a href=\"https://egm.dev\">Website</a> </p> <br> Develop ideas with context and review "
+  },
+  {
    "full_name": "blader/humanizer",
    "url": "https://github.com/blader/humanizer",
-   "stars": 69126,
-   "stars_gained": 2660,
-   "age_days": 300,
-   "stars_per_day_since_creation": 230.4,
+   "stars": 69470,
+   "stars_gained": 2379,
+   "age_days": 301,
+   "stars_per_day_since_creation": 230.8,
    "description": "Agent skill that removes signs of AI-generated writing from text",
    "topics": [
     "agent-skills",
@@ -637,12 +637,41 @@
    "readme_excerpt": "# Humanizer sponsored by [cfo.ai](https://cfo.ai) [![GitHub stars](https://img.shields.io/github/stars/blader/humanizer?style=flat)](https://github.com/blader/humanizer/stargazers) [![skills.sh installs](https://skills.sh/b/blader/humanizer)](https://skills.sh/blader/humanizer) Humanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), the guide Wikiped"
   },
   {
+   "full_name": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "stars": 52031,
+   "stars_gained": 2307,
+   "age_days": 181,
+   "stars_per_day_since_creation": 287.5,
+   "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "topics": [
+    "agent",
+    "agent-skills",
+    "code-review",
+    "code-review-assistant",
+    "harness",
+    "repository-level-context"
+   ],
+   "readme_excerpt": "<div align=\"center\"> <a href=\"https://open-codereview.ai\"> <img src=\"imgs/logo-core.svg\" alt=\"OpenCodeReview logo\" width=\"180\" /> </a> <h1>OpenCodeReview</h1> </div> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/41087?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-41087\" target=\"_blank\" rel=\"noopener noreferrer\"> <img src=\"https://trendshift.io/api/badge/repositories/41087\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; hei"
+  },
+  {
+   "full_name": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "stars": 233446,
+   "stars_gained": 2100,
+   "age_days": 292,
+   "stars_per_day_since_creation": 799.5,
+   "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "topics": [],
+   "readme_excerpt": "# Karpathy-Inspired Claude Code Guidelines > Check out my new project [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills. > > Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy) A single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls. English | [简体中文](./README.zh.md) ## The P"
+  },
+  {
    "full_name": "Donchitos/Claude-Code-Game-Studios",
    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-   "stars": 39290,
-   "stars_gained": 2308,
-   "age_days": 275,
-   "stars_per_day_since_creation": 142.9,
+   "stars": 39560,
+   "stars_gained": 2033,
+   "age_days": 276,
+   "stars_per_day_since_creation": 143.3,
    "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
    "topics": [
     "ai-agents",
@@ -661,55 +690,12 @@
    "readme_excerpt": "<p align=\"center\"> <h1 align=\"center\">Claude Code Game Studios</h1> <p align=\"center\"> Describe a game. Claude Code asks a few questions, writes a one-page brief, and builds a playable browser game from it. <br /> Then you change it, grow it and finish it, one step at a time. </p> </p> <p align=\"center\"> <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-blue.svg\" alt=\"MIT License\"></a> <a href=\"https://code.claude.com/docs\"><img src=\"https://img.shields.io/badge/built%20for-Cl"
   },
   {
-   "full_name": "thedotmack/claude-mem",
-   "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 117106,
-   "stars_gained": 2225,
-   "age_days": 440,
-   "stars_per_day_since_creation": 266.1,
-   "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-   "topics": [
-    "ai",
-    "ai-agents",
-    "ai-memory",
-    "anthropic",
-    "artificial-intelligence",
-    "chromadb",
-    "claude",
-    "claude-agent-sdk",
-    "claude-agents",
-    "claude-code",
-    "claude-code-plugin",
-    "claude-skills",
-    "embeddings",
-    "long-term-memory",
-    "mem0",
-    "memory-engine",
-    "openmemory",
-    "rag",
-    "sqlite",
-    "supermemory"
-   ],
-   "readme_excerpt": "<h1 align=\"center\"> <br> <a href=\"https://github.com/thedotmack/claude-mem\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/public/claude-mem-logo-for-dark-mode.webp\"> <source media=\"(prefers-color-scheme: light)\" srcset=\"docs/public/claude-mem-logo-for-light-mode.webp\"> <img src=\"docs/public/claude-mem-logo-for-light-mode.webp\" alt=\"Claude-Mem\" width=\"400\"> </picture> </a> </h1> <p align=\"center\"> <img alt=\"Vercel OSS Program\" src=\"https://vercel.com/oss/program-badge-2026."
-  },
-  {
-   "full_name": "multica-ai/andrej-karpathy-skills",
-   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-   "stars": 233150,
-   "stars_gained": 2221,
-   "age_days": 291,
-   "stars_per_day_since_creation": 801.2,
-   "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-   "topics": [],
-   "readme_excerpt": "# Karpathy-Inspired Claude Code Guidelines > Check out my new project [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills. > > Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy) A single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls. English | [简体中文](./README.zh.md) ## The P"
-  },
-  {
    "full_name": "AgriciDaniel/claude-seo",
    "url": "https://github.com/AgriciDaniel/claude-seo",
-   "stars": 29357,
-   "stars_gained": 1888,
-   "age_days": 280,
-   "stars_per_day_since_creation": 104.8,
+   "stars": 29705,
+   "stars_gained": 2000,
+   "age_days": 281,
+   "stars_per_day_since_creation": 105.7,
    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
    "topics": [
     "ai",
@@ -720,17 +706,17 @@
     "open-source",
     "seo"
    ],
-   "readme_excerpt": "<!-- Claude SEO (claude-seo): free, open-source SEO audit plugin for Claude Code by Agrici Daniel. Technical SEO, Core Web Vitals, E-E-A-T, Schema.org, AI search (GEO), local SEO, e-commerce and international SEO. 26 sub-skills and 19 specialist agents. MIT licensed. --> <img src=\"assets/readme/v3/hero.svg\" width=\"1200\" height=\"420\" alt=\"Claude SEO: rank in Google, get cited by AI. Three bots climb from #48 to #1 by fixing crawl, speed, schema, AI access and authority, then Google, ChatGPT, Perp"
+   "readme_excerpt": "<!-- Claude SEO (claude-seo): free, open-source SEO audit plugin for Claude Code by Agrici Daniel. Technical SEO, Core Web Vitals, E-E-A-T, Schema.org, AI search (GEO), local SEO, e-commerce and international SEO. 29 sub-skills and 20 specialist agents. MIT licensed. --> <img src=\"assets/readme/v3/hero.svg\" width=\"1200\" height=\"420\" alt=\"Claude SEO: rank in Google, get cited by AI. Three bots climb from #48 to #1 by fixing crawl, speed, schema, AI access and authority, then Google, ChatGPT, Perp"
   }
  ],
  "rising_new_repos_30d": [
   {
    "full_name": "heydamir/unslop",
    "url": "https://github.com/heydamir/unslop",
-   "stars": 15984,
-   "stars_gained": 4035,
-   "age_days": 16,
-   "stars_per_day_since_creation": 999.0,
+   "stars": 16739,
+   "stars_gained": 4010,
+   "age_days": 17,
+   "stars_per_day_since_creation": 984.6,
    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
    "topics": [],
    "readme_excerpt": "# unslop Created by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), who started the [Unslopping series](https://x.com/heydamir/status/2115063463063998736) on X. ![A vibecoded dashboard unslopping itself, frame by frame](skills/unslop/references/refs/story-dashboard-frames.webp) unslop is a skill for Claude Code, Codex and Google Antigravity that turns vibecoded, AI-looking UI into a designed interface with its own character. It finds the slop first, the purple gradients, glows, emoji lab"
@@ -738,10 +724,10 @@
   {
    "full_name": "Jakeschincariol/day-trader-skill",
    "url": "https://github.com/Jakeschincariol/day-trader-skill",
-   "stars": 7806,
-   "stars_gained": 1618,
-   "age_days": 25,
-   "stars_per_day_since_creation": 312.2,
+   "stars": 8011,
+   "stars_gained": 1602,
+   "age_days": 26,
+   "stars_per_day_since_creation": 308.1,
    "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
    "topics": [
     "backtesting",
@@ -755,10 +741,10 @@
   {
    "full_name": "JDhruv14/line-art-animation",
    "url": "https://github.com/JDhruv14/line-art-animation",
-   "stars": 751,
+   "stars": 828,
    "stars_gained": null,
-   "age_days": 4,
-   "stars_per_day_since_creation": 187.8,
+   "age_days": 5,
+   "stars_per_day_since_creation": 165.6,
    "description": "A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.",
    "topics": [
     "claude-skill",
@@ -771,10 +757,10 @@
   {
    "full_name": "alchaincyf/huashu-motion",
    "url": "https://github.com/alchaincyf/huashu-motion",
-   "stars": 2704,
-   "stars_gained": 182,
-   "age_days": 27,
-   "stars_per_day_since_creation": 100.1,
+   "stars": 2741,
+   "stars_gained": 172,
+   "age_days": 28,
+   "stars_per_day_since_creation": 97.9,
    "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
    "topics": [
     "agent-skills",
@@ -796,10 +782,10 @@
   {
    "full_name": "kubai087/kubai-icons",
    "url": "https://github.com/kubai087/kubai-icons",
-   "stars": 827,
-   "stars_gained": null,
-   "age_days": 11,
-   "stars_per_day_since_creation": 75.2,
+   "stars": 876,
+   "stars_gained": 312,
+   "age_days": 12,
+   "stars_per_day_since_creation": 73.0,
    "description": "An agent skill that draws animated icons in one consistent style, for Claude Code, Codex and other coding agents. Comes with 2,600+ open-source icons for React, Vue and SVG, and a website to browse them.",
    "topics": [
     "agent-skills",
@@ -823,10 +809,10 @@
   {
    "full_name": "abdiraimov-otabek/dashboard-design-skill",
    "url": "https://github.com/abdiraimov-otabek/dashboard-design-skill",
-   "stars": 466,
-   "stars_gained": 53,
-   "age_days": 25,
-   "stars_per_day_since_creation": 18.6,
+   "stars": 474,
+   "stars_gained": 48,
+   "age_days": 26,
+   "stars_per_day_since_creation": 18.2,
    "description": "A Claude Code skill for clean, honest dashboard UI: KPI tiles, charts, date pickers, ranked lists, states, layouts and a screenshot QA pass. Distilled from 127 shipped dashboards.",
    "topics": [
     "agent-skills",
@@ -845,9 +831,9 @@
    "full_name": "mochistudio-vn/kitviet",
    "url": "https://github.com/mochistudio-vn/kitviet",
    "stars": 22,
-   "stars_gained": 6,
-   "age_days": 11,
-   "stars_per_day_since_creation": 2.0,
+   "stars_gained": 3,
+   "age_days": 12,
+   "stars_per_day_since_creation": 1.8,
    "description": "🇻🇳 Kit Việt – Bộ AI Agent tiếng Việt cho 20 nghề: kế toán, nhân sự, xây dựng, y tế, pháp lý... 340+ skill & 130+ trợ lý chạy trên Claude Desktop, Claude Code và ChatGPT Codex. Xuất Word/Excel/PDF/PowerPoint đúng thể thức. Miễn phí, MIT. Sản phẩm của MochiStudio.",
    "topics": [
     "ai-agents",
@@ -877,7 +863,7 @@
    "url": "https://github.com/k45sle/Claude-auto-pause",
    "stars": 16,
    "stars_gained": 3,
-   "age_days": 26,
+   "age_days": 27,
    "stars_per_day_since_creation": 0.6,
    "description": "Claude Code plugin: stops Claude before your usage limit and saves a checked handoff note, so a new chat picks up where it left off.",
    "topics": [
@@ -909,7 +895,7 @@
    "url": "https://github.com/previtlab/suno-lyrics-skill",
    "stars": 5,
    "stars_gained": 0,
-   "age_days": 29,
+   "age_days": 30,
    "stars_per_day_since_creation": 0.2,
    "description": "수노(Suno)용 한국어 작사 Claude 에이전트 스킬 — 가사와 Style·Exclude·Title을 장르에 맞춰 함께 설계 (v3.1, CC BY 4.0) · Korean lyric-writing Agent Skill (SKILL.md) for Suno",
    "topics": [
